@@ -21,7 +21,6 @@
 		05EB91E6189DE38700356F11 /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB91E5189DE38700356F11 /* RibbitTests.m */; };
 		05EB91F0189DE3B500356F11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EB91EF189DE3B500356F11 /* MainStoryboard.storyboard */; };
 		05EB91F3189E0E1F00356F11 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB91F2189E0E1F00356F11 /* InboxViewController.m */; };
-		05EB91F5189F5A6900356F11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91F4189F5A6900356F11 /* Parse.framework */; };
 		05EB91F7189F5A9600356F11 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91F6189F5A9600356F11 /* AudioToolbox.framework */; };
 		05EB91F9189F5A9D00356F11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91F8189F5A9D00356F11 /* CFNetwork.framework */; };
 		05EB91FB189F5AAC00356F11 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91FA189F5AAC00356F11 /* CoreLocation.framework */; };
@@ -33,6 +32,8 @@
 		05EB9207189F5AD000356F11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB9204189F5AD000356F11 /* SystemConfiguration.framework */; };
 		05EB920A189F5CE800356F11 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB9209189F5CE800356F11 /* LoginViewController.m */; };
 		05EB920D189F5CF900356F11 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB920C189F5CF900356F11 /* SignupViewController.m */; };
+		CC65BF48189FFB1000EE9D96 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC65BF47189FFB1000EE9D96 /* Parse.framework */; };
+		CC65BF4B18A0296D00EE9D96 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC65BF4A18A0296D00EE9D96 /* EditFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,6 @@
 		05EB91EF189DE3B500356F11 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		05EB91F1189E0E1F00356F11 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxViewController.h; path = ../InboxViewController.h; sourceTree = "<group>"; };
 		05EB91F2189E0E1F00356F11 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxViewController.m; path = ../InboxViewController.m; sourceTree = "<group>"; };
-		05EB91F4189F5A6900356F11 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		05EB91F6189F5A9600356F11 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		05EB91F8189F5A9D00356F11 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		05EB91FA189F5AAC00356F11 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -79,6 +79,9 @@
 		05EB9209189F5CE800356F11 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 		05EB920B189F5CF900356F11 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
 		05EB920C189F5CF900356F11 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
+		CC65BF47189FFB1000EE9D96 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CC65BF4918A0296D00EE9D96 /* EditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsViewController.h; sourceTree = "<group>"; };
+		CC65BF4A18A0296D00EE9D96 /* EditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +95,12 @@
 				05EB9201189F5AC400356F11 /* QuartzCore.framework in Frameworks */,
 				05EB91FF189F5ABD00356F11 /* MobileCoreServices.framework in Frameworks */,
 				05EB91FD189F5AB600356F11 /* libz.dylib in Frameworks */,
+				CC65BF48189FFB1000EE9D96 /* Parse.framework in Frameworks */,
 				05EB91FB189F5AAC00356F11 /* CoreLocation.framework in Frameworks */,
 				05EB91C3189DE38700356F11 /* CoreGraphics.framework in Frameworks */,
 				05EB91F9189F5A9D00356F11 /* CFNetwork.framework in Frameworks */,
 				05EB91F7189F5A9600356F11 /* AudioToolbox.framework in Frameworks */,
 				05EB91C5189DE38700356F11 /* UIKit.framework in Frameworks */,
-				05EB91F5189F5A6900356F11 /* Parse.framework in Frameworks */,
 				05EB91C1189DE38700356F11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +141,7 @@
 		05EB91BF189DE38700356F11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC65BF47189FFB1000EE9D96 /* Parse.framework */,
 				05EB9202189F5AD000356F11 /* Security.framework */,
 				05EB9203189F5AD000356F11 /* StoreKit.framework */,
 				05EB9204189F5AD000356F11 /* SystemConfiguration.framework */,
@@ -147,7 +151,6 @@
 				05EB91FA189F5AAC00356F11 /* CoreLocation.framework */,
 				05EB91F8189F5A9D00356F11 /* CFNetwork.framework */,
 				05EB91F6189F5A9600356F11 /* AudioToolbox.framework */,
-				05EB91F4189F5A6900356F11 /* Parse.framework */,
 				05EB91C0189DE38700356F11 /* Foundation.framework */,
 				05EB91C2189DE38700356F11 /* CoreGraphics.framework */,
 				05EB91C4189DE38700356F11 /* UIKit.framework */,
@@ -161,6 +164,8 @@
 			children = (
 				05EB91CF189DE38700356F11 /* AppDelegate.h */,
 				05EB91D0189DE38700356F11 /* AppDelegate.m */,
+				CC65BF4918A0296D00EE9D96 /* EditFriendsViewController.h */,
+				CC65BF4A18A0296D00EE9D96 /* EditFriendsViewController.m */,
 				05EB91F1189E0E1F00356F11 /* InboxViewController.h */,
 				05EB91F2189E0E1F00356F11 /* InboxViewController.m */,
 				05EB9208189F5CE800356F11 /* LoginViewController.h */,
@@ -302,6 +307,7 @@
 				05EB91D1189DE38700356F11 /* AppDelegate.m in Sources */,
 				05EB91CD189DE38700356F11 /* main.m in Sources */,
 				05EB91F3189E0E1F00356F11 /* InboxViewController.m in Sources */,
+				CC65BF4B18A0296D00EE9D96 /* EditFriendsViewController.m in Sources */,
 				05EB920D189F5CF900356F11 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +429,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/devanb/Documents/Projects/Ribbit,
+					"/Users/dbeitel/Documents/Projects/Ribbit-iPhone",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
@@ -440,7 +446,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/devanb/Documents/Projects/Ribbit,
+					"/Users/dbeitel/Documents/Projects/Ribbit-iPhone",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
@@ -511,6 +517,7 @@
 				05EB91EB189DE38700356F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05EB91EC189DE38700356F11 /* Build configuration list for PBXNativeTarget "RibbitTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				05EB91EE189DE38700356F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

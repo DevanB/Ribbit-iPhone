@@ -18,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self performSegueWithIdentifier:@"showLoginSignUp" sender:self];
+    
+    PFUser *currentUser = [PFUser currentUser];
+    if (currentUser) {
+        
+    }
+    else {
+        [self performSegueWithIdentifier:@"showLoginSignUp" sender:self];
+    }
+    
 }
 
 #pragma mark - Table view data source
@@ -45,4 +53,14 @@
     return cell;
 }
 
+- (IBAction)logout:(id)sender {
+    [PFUser logOut];
+    [self performSegueWithIdentifier:@"showLoginSignUp" sender:self];
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showLoginSignUp"]) {
+        [segue.destinationViewController setHidesBottomBarWhenPushed:YES];
+    }
+}
 @end
