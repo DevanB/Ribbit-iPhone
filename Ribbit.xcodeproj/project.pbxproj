@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058194F118A0C1E200590B73 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058194F018A0C1E200590B73 /* Parse.framework */; };
 		05EB91C1189DE38700356F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91C0189DE38700356F11 /* Foundation.framework */; };
 		05EB91C3189DE38700356F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91C2189DE38700356F11 /* CoreGraphics.framework */; };
 		05EB91C5189DE38700356F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB91C4189DE38700356F11 /* UIKit.framework */; };
@@ -32,7 +33,6 @@
 		05EB9207189F5AD000356F11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EB9204189F5AD000356F11 /* SystemConfiguration.framework */; };
 		05EB920A189F5CE800356F11 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB9209189F5CE800356F11 /* LoginViewController.m */; };
 		05EB920D189F5CF900356F11 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB920C189F5CF900356F11 /* SignupViewController.m */; };
-		CC65BF48189FFB1000EE9D96 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC65BF47189FFB1000EE9D96 /* Parse.framework */; };
 		CC65BF4B18A0296D00EE9D96 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC65BF4A18A0296D00EE9D96 /* EditFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058194F018A0C1E200590B73 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		05EB91BD189DE38700356F11 /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EB91C0189DE38700356F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05EB91C2189DE38700356F11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,7 +80,6 @@
 		05EB9209189F5CE800356F11 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 		05EB920B189F5CF900356F11 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
 		05EB920C189F5CF900356F11 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
-		CC65BF47189FFB1000EE9D96 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		CC65BF4918A0296D00EE9D96 /* EditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsViewController.h; sourceTree = "<group>"; };
 		CC65BF4A18A0296D00EE9D96 /* EditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 				05EB9201189F5AC400356F11 /* QuartzCore.framework in Frameworks */,
 				05EB91FF189F5ABD00356F11 /* MobileCoreServices.framework in Frameworks */,
 				05EB91FD189F5AB600356F11 /* libz.dylib in Frameworks */,
-				CC65BF48189FFB1000EE9D96 /* Parse.framework in Frameworks */,
+				058194F118A0C1E200590B73 /* Parse.framework in Frameworks */,
 				05EB91FB189F5AAC00356F11 /* CoreLocation.framework in Frameworks */,
 				05EB91C3189DE38700356F11 /* CoreGraphics.framework in Frameworks */,
 				05EB91F9189F5A9D00356F11 /* CFNetwork.framework in Frameworks */,
@@ -141,7 +141,7 @@
 		05EB91BF189DE38700356F11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC65BF47189FFB1000EE9D96 /* Parse.framework */,
+				058194F018A0C1E200590B73 /* Parse.framework */,
 				05EB9202189F5AD000356F11 /* Security.framework */,
 				05EB9203189F5AD000356F11 /* StoreKit.framework */,
 				05EB9204189F5AD000356F11 /* SystemConfiguration.framework */,
@@ -429,7 +429,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/dbeitel/Documents/Projects/Ribbit-iPhone",
+					/Users/devanb/Documents/Projects/Ribbit,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
@@ -446,7 +446,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/dbeitel/Documents/Projects/Ribbit-iPhone",
+					/Users/devanb/Documents/Projects/Ribbit,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
