@@ -111,7 +111,7 @@
                             <outlet property="delegate" destination="rnp-ar-8hY" id="sq2-sn-sST"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Edit Friends" id="gCR-tn-HWR" customClass="Edition"/>
+                    <navigationItem key="navigationItem" title="Edit Friends" id="gCR-tn-HWR"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICT-4R-Nj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
